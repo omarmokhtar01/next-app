@@ -1,0 +1,35 @@
+.post{
+
+justify-self: center;
+border: 1px solid #555;
+border-radius: 15px;
+transition: .5s all ease-in-out;
+
+}
+.post:hover{
+    background-color: black;
+}
+.image{
+object-fit: cover;
+border-radius: 15px;
+}
+.content{
+margin: 15px;
+}
+
+.text{
+    color: #999;
+    font-size: 18px;
+}
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(3 , 33%);
+    gap: 25px;
+    
+}
+/* .col{
+    flex: 1;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  } */

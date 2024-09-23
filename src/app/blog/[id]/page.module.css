@@ -1,0 +1,32 @@
+.imageContaner{
+    position: relative;
+    height: 300px;
+    margin: 25px 0;
+}
+
+.postImage{
+object-fit: cover;
+border-radius: 15px;
+}
+.title{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.desc{
+    margin-bottom: 5px;
+}
+.text{
+font-size: 16px;
+line-height: 26px;
+columns: 2;
+text-align: justify;
+margin-bottom: 20px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
