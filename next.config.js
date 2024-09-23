@@ -3,7 +3,8 @@ const nextConfig = {
   images : {
     domains : [
         "images.pexels.com",
-        "i.dummyjson.com"
+        "i.dummyjson.com",
+        'cdn.dummyjson.com'
     ]
   }
 
